@@ -1,15 +1,13 @@
 # Oro-Jackson
-
+Github pages link: https://rickyavila29.github.io/Oro-Jackson/
 This challenge was made up of a lot of diifferent components including hmtl, css, and javascript. Utilizing JSON, arrays, and for loops the goal of the assigment was meant to be met by the criteria below...
 
+#Criteria
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
-```
 
 ## Acceptance Criteria
-
-```
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
@@ -21,3 +19,4 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
+
