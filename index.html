@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="answer-btns" class="btn-grid">
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">Start</button>
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+        <div id="leaderScore" class="leaderHighScore">
+            <div>
+                    <form id="score-board" method="POST">
+                      <label for="score-text"></label>
+                      <input type="text" placeholder="Name here" name="score-name" id="score-text" />
+                      <button id="submit-button">Submit</button>
+                    </form>
+                    <ul id="leader-list"></ul>
+            </div>
+    
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
